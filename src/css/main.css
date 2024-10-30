@@ -19,6 +19,7 @@ label {
 
 body {
   font-family: "Plus Jakarta Sans";
+  margin: 50px;
 }
 
 .login {
@@ -42,16 +43,66 @@ body {
 
 .login-title {
   color: #000;
-
   font-size: 32px;
-
   font-weight: 600;
+  width: 336px;
 }
 
 .login-subtitle {
   color: #000;
-
   font-size: 24px;
-
   font-weight: 500;
+  width: 336px;
+}
+
+.login-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.login-group {
+  transition: 1s;
+}
+
+.login-label {
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  width: 336px;
+}
+
+.login-input {
+  width: 336px;
+  height: 40px;
+  padding-left: 12px;
+  transition: 0.5s;
+  border-radius: 4px;
+  outline: none;
+}
+
+.login-input:focus {
+  background-color: #eee;
+  border: 1px solid #000;
+}
+
+.login-submit {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #1576ea;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.login-submit:hover {
+  background-color: #000;
 }
