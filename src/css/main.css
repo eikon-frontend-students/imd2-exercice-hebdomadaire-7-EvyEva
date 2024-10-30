@@ -16,3 +16,42 @@ video {
 label {
   display: block;
 }
+
+body {
+  font-family: "Plus Jakarta Sans";
+}
+
+.login {
+  display: flex;
+  width: 400px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.login-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login-title {
+  color: #000;
+
+  font-size: 32px;
+
+  font-weight: 600;
+}
+
+.login-subtitle {
+  color: #000;
+
+  font-size: 24px;
+
+  font-weight: 500;
+}
