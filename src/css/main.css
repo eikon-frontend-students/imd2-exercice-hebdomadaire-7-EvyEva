@@ -81,6 +81,7 @@ body {
   transition: 0.5s;
   border-radius: 4px;
   outline: none;
+  border: 1px solid #ccc;
 }
 
 .login-input:focus {
@@ -101,6 +102,8 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 40px;
+  border: none;
+  transition: 0.5s;
 }
 
 .login-submit:hover {
